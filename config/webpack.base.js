@@ -49,7 +49,7 @@ const createLintRules = () => ({
 module.exports = {
   context: path.resolve(__dirname, '../'),
   output: {
-    path: path.join(__dirname, '..', 'dist'),
+    path: path.join(__dirname, '..', 'docs'),
     filename: 'assets/js/[name].[hash].js',
     chunkFilename: 'assets/js/[id].[hash].js',
     publicPath: process.env.NODE_ENV === 'production' ?
