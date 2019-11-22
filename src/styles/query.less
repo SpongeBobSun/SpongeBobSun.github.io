@@ -1,0 +1,39 @@
+@desktop:   ~"only screen and (min-width: 600px) and (max-width: 4096px)";
+@tablet: ~"only screen and (min-width: 421px) and (max-width: 720px)";
+@phone:    ~"only screen and (max-width: 420px)";
+
+@media @desktop {
+    .desktop-only {
+        display: unset;
+    }
+    .phone-only {
+        display: none;
+    }
+    .tablet-only {
+        display: none;
+    }
+}
+
+@media @phone {
+    .desktop-only {
+        display: none;
+    }
+    .phone-only {
+        display: unset;
+    }
+    .tablet-only {
+        display: unset;
+    }
+}
+
+@media @tablet {
+    .desktop-only {
+        display: none;
+    }
+    .phone-only {
+        display: unset;
+    }
+    .tablet-only {
+        display: unset;
+    }
+}
