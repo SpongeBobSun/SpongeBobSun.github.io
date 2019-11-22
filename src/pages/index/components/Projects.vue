@@ -58,7 +58,7 @@ export default {
                 {
                     name: `Prodigal ${this.$str('Music Player')}`,
                     description: this.$str('desc_prodigal'),
-                    image: "https://github.com/SpongeBobSun/Prodigal-iOS/raw/master/artworks/nowplaying.jpg",
+                    image: "https://i.loli.net/2019/11/22/ACfbLT59Uuavwos.png",
                     sourceLinks: [
                         {
                             name: 'iOS', link: 'https://github.com/SpongeBobSun/Prodigal-iOS'
@@ -79,7 +79,7 @@ export default {
                 {
                     name: `Puff ${this.$str('Password Manager')}`,
                     description: this.$str('desc_puff'),
-                    image: "https://raw.githubusercontent.com/PuffOpenSource/Puff-Android/master/img/screenshots/SC_01_Home.png",
+                    image: "https://i.loli.net/2019/11/22/magNJ1HY6XtZAvW.png",
                     sourceLinks: [
                         {
                             name: 'iOS', link: 'https://github.com/PuffOpenSource/Puff-iOS/'
@@ -139,7 +139,7 @@ export default {
 
                     Cross platform.
                     `,
-                    image: "https://raw.githubusercontent.com/SpongeNobody/Clashy/master/docs/status.png",
+                    image: "https://i.loli.net/2019/11/22/Ch18b6wN7jURYpr.png",
                     sourceLinks: [
                         { name: 'All Platform', link: 'https://github.com/SpongeNobody/Clashy/' }
                     ],
