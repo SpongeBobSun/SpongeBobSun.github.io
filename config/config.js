@@ -30,7 +30,7 @@ module.exports = {
   },
 
   build: {
-    assetsRoot: path.resolve(__dirname, '..', 'docs'),
+    assetsRoot: path.resolve(__dirname, '..'),
     assetsSubDirectory: '',
     assetsPublicPath: '/',
 
