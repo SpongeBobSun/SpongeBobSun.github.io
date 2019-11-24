@@ -32,7 +32,8 @@ export class BobSun {
         <h3>{{ $str('Contact') }}</h3>
     </div>
     <p>
-        <a>Email: </a>
+        <a>Email: <img src="../../../assets/email.png"/></a>
+        <p>⬆️ Above email address is an image in order to prevent spams.</p>
     </p>
     </div>
 </template>

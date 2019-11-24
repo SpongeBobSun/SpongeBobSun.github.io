@@ -11,7 +11,7 @@
               <a class="dropdown-toggle"
                 data-toggle="dropdown">
                   {{ $str('Projects') }}
-                  <b class="caret"></b>
+                  <b class="caret" style="margin: 4px 10px;"></b>
               </a>
               <ul class="dropdown-menu">
                   <li><a href="#apps">{{ $str('Apps') }}</a></li>
@@ -21,7 +21,8 @@
                   <li><a href="#commercial">{{ $str('Commercial Projects') }}</a></li>
                 </ul>
             </li>
-            <li><a href="#about">{{ $str('About') }}</a></li>
+            <li><a href="#about">{{$str('About')}}</a></li>
+            <li><a href="#contact">{{$str('Contact')}}</a></li>
             <li><a @click="changeLang">
               {{ currentLang == 'en' ? '中文' : 'English' }}
             </a></li>
