@@ -146,6 +146,24 @@ export default {
                     downloadLinks: [
                         { name: 'All Platform', link: 'https://github.com/SpongeNobody/Clashy/releases' }
                     ]
+                },
+                {
+                    name: 'LiveDeveloperExcuses',
+                    description: `A macOS screensaver
+
+                    Fetch & displays quotes from developerexcuses.com
+
+                    Optional video background
+
+                    Written in swift
+                    `,
+                    image: "https://i.loli.net/2020/02/13/Y17INtKL2W3uoZP.png",
+                    sourceLinks: [
+                        { name: 'macOS', link: 'https://github.com/SpongeBobSun/LiveDeveloperExcuses/' }
+                    ],
+                    downloadLinks: [
+                        { name: 'macOS', link: 'https://github.com/SpongeBobSun/LiveDeveloperExcuses/releases' }
+                    ]
                 }
             ]
         }
