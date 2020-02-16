@@ -88,6 +88,14 @@ const values = {
 
                     提供多种纬度的查询.
                     `,
+        desc_livedevex: `一个 macOS 上的屏幕保护程序
+
+                    从 developerexcuses.com 上抓取并展示内容
+            
+                    支持视频背景
+            
+                    使用Swift开发
+                    `,
         desc_edu: '电子科技大学 - 学士学位'
     },
     en: {
@@ -132,6 +140,14 @@ const values = {
 
                     Querying by several dimensions.
                     `,
+        desc_livedevex: `A macOS screensaver
+
+        Fetch & displays quotes from developerexcuses.com
+
+        Optional video background
+
+        Written in swift
+        `,
         desc_edu: 'University of Electronic Science and Technology of China - Bachelor Degree'
     }
 }

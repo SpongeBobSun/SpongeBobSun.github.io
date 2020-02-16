@@ -149,14 +149,7 @@ export default {
                 },
                 {
                     name: 'LiveDeveloperExcuses',
-                    description: `A macOS screensaver
-
-                    Fetch & displays quotes from developerexcuses.com
-
-                    Optional video background
-
-                    Written in swift
-                    `,
+                    description: this.$str('desc_livedevex'),
                     image: "https://i.loli.net/2020/02/13/Y17INtKL2W3uoZP.png",
                     sourceLinks: [
                         { name: 'macOS', link: 'https://github.com/SpongeBobSun/LiveDeveloperExcuses/' }
